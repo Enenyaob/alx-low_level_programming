@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	char lt[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < 26; i++)
+	for (i = 97; i < 123; i++)
 	{
-		if (lt[
-		putchar(lt[i]);
+		if (i != 101 && i != 113)
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
+}
