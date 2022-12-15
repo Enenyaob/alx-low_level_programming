@@ -8,19 +8,8 @@ int main(void)
 {
 	int i;
 
-	i = 98;
+	i = 0;
 	positive_or_negative(i);
-	if (i > 0)
-	{
-		printf("%d is positive\n", i);
-	}
-	else if (i == 0)
-	{
-		print("%d is zero\n", i)
-	}
-	else
-	{
-		printf("%d is negative\n", i);
-	}
+
 	return (0);
 }
